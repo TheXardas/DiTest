@@ -1,0 +1,6 @@
+services:
+    app.mail_sender:
+        class: My\Task\Service\Transport\FileSender
+
+    app.db_accessor:
+        class: My\Task\Service\Db\MySql

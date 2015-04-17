@@ -1,0 +1,25 @@
+{
+    "name": "Test",
+    "description": "Test",
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "My\\Task": "src/"
+        }
+    },
+
+    "require": {
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/php-invoker" : ">=1.1.0@stable",
+        "mikey179/vfsStream": "1.1.0",
+        "symfony/dependency-injection": "2.5.*",
+        "symfony/config": "2.5.*",
+        "symfony/yaml": "2.5.*"
+    },
+
+    "minimum-stability": "dev"
+}

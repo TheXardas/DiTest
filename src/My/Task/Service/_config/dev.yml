@@ -1,0 +1,11 @@
+#TODO заюзать сервис configProvider или типа того, без хардкода
+parameters:
+    mailDir: 'mail'
+
+services:
+    app.mail_sender:
+        class: My\Task\Service\Transport\FileSender
+        arguments: [%mailDir%]
+
+    app.db_accessor:
+        class: My\Task\Service\Db\Sqlite

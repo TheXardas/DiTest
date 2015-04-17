@@ -1,0 +1,7 @@
+vendor/*
+bin/*
+mail/*
+.idea/*
+atlassian-ide-plugin.xml
+composer.lock
+composer.phar
