@@ -54,6 +54,8 @@ class Application
                         $loader->load($file);
                     }
                 }
+
+                // TODO окружение для тестов, и вообще отрефакторить тут всё.
             }
         }
         closedir($handle);
